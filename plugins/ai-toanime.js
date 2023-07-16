@@ -1,21 +1,3 @@
-import fetch from 'node-fetch'
-import uploadImage from '../lib/uploadImage.js'
-
-let handler = async (m, { conn, usedPrefix, command, text }) => {
-let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let name = await conn.getName(who)
-let q = m.quoted ? m.quoted : m
-let mime = (q.msg || q).mimetype || ''
-if (!mime) throw 'Kirim/Reply Gambar Dengan Caption .toanime'
-m.reply(wait)
-let media = await q.download()
-let url = await uploadImage(media)
-let hasil = await (await fetch(`https://api.xyroinee.xyz/api/others/toanime?url=${url}&apikey=${global.xyro}`)).buffer()
-await conn.sendFile(m.chat, hasil, '', 'Nih Kak, Maaf Kalau Hasilnya Tidak Sesuai Keinginan', m)
-}
-handler.help = ['toanime']
-handler.tags = ['ai']
-handler.command = /^(jadianime|toanime)$/i
-handler.premium = true
-
-export default handler
+//sc ori By FahriXz 
+//Mau Buy Yang no enc? Chat +62 857-6972-7113 Harga Bisa Di Diskusikan
+const _0x3aee6b=_0x3edf;(function(_0x792e2b,_0x2c6e52){const _0x5c5960=_0x3edf,_0x205727=_0x792e2b();while(!![]){try{const _0x368cf4=parseInt(_0x5c5960(0x123))/0x1*(parseInt(_0x5c5960(0x13f))/0x2)+parseInt(_0x5c5960(0x125))/0x3+parseInt(_0x5c5960(0x12e))/0x4*(-parseInt(_0x5c5960(0x13d))/0x5)+parseInt(_0x5c5960(0x132))/0x6*(parseInt(_0x5c5960(0x141))/0x7)+parseInt(_0x5c5960(0x12d))/0x8*(-parseInt(_0x5c5960(0x122))/0x9)+parseInt(_0x5c5960(0x140))/0xa*(parseInt(_0x5c5960(0x133))/0xb)+parseInt(_0x5c5960(0x13b))/0xc;if(_0x368cf4===_0x2c6e52)break;else _0x205727['push'](_0x205727['shift']());}catch(_0xfd92f2){_0x205727['push'](_0x205727['shift']());}}}(_0x2263,0x6ec96));import _0x4bf495 from'node-fetch';import _0xae7fe8 from'../lib/uploadImage.js';let handler=async(_0x9f4a95,{conn:_0x506c49,usedPrefix:_0x1fc584,command:_0x1ffb55,text:_0x486833})=>{const _0x156329=_0x3edf;let _0x2a2c08=_0x9f4a95['mentionedJid']&&_0x9f4a95['mentionedJid'][0x0]?_0x9f4a95['mentionedJid'][0x0]:_0x9f4a95[_0x156329(0x12b)]?_0x506c49[_0x156329(0x124)][_0x156329(0x12f)]:_0x9f4a95[_0x156329(0x13a)],_0x153074=await _0x506c49['getName'](_0x2a2c08),_0x141f7b=_0x9f4a95[_0x156329(0x139)]?_0x9f4a95['quoted']:_0x9f4a95,_0x206de8=(_0x141f7b[_0x156329(0x130)]||_0x141f7b)[_0x156329(0x134)]||'';if(!_0x206de8)throw _0x156329(0x135);_0x9f4a95[_0x156329(0x12c)](wait);let _0x12323f=await _0x141f7b[_0x156329(0x12a)](),_0x46c849=await _0xae7fe8(_0x12323f),_0x420c3f=await(await _0x4bf495(_0x156329(0x138)+_0x46c849+_0x156329(0x126)+global[_0x156329(0x137)]))[_0x156329(0x13e)]();await _0x506c49[_0x156329(0x121)](_0x9f4a95[_0x156329(0x13c)],_0x420c3f,'',_0x156329(0x128),_0x9f4a95);};function _0x2263(){const _0x4e672d=['257873dBSijY','sendFile','4437387NJDOhG','97849UyBnbF','user','487125CdJrLT','&apikey=','premium','Nih\x20Kak,\x20Maaf\x20Kalau\x20Hasilnya\x20Tidak\x20Sesuai\x20Keinginan','help','download','fromMe','reply','8Elalig','1336860HlWSGg','jid','msg','tags','48ZTlClE','1632158nsZuqd','mimetype','Kirim/Reply\x20Gambar\x20Dengan\x20Caption\x20.toanime','command','xyro','https://api.xyroinee.xyz/api/others/toanime?url=','quoted','sender','1591104FTJrdO','chat','5SyNWga','buffer','2MWLamo','40kxpsBI'];_0x2263=function(){return _0x4e672d;};return _0x2263();}handler[_0x3aee6b(0x129)]=['toanime'],handler[_0x3aee6b(0x131)]=['ai'],handler[_0x3aee6b(0x136)]=/^(jadianime|toanime)$/i,handler[_0x3aee6b(0x127)]=!![];function _0x3edf(_0x57aea8,_0x4b4070){const _0x226347=_0x2263();return _0x3edf=function(_0x3edf7c,_0x174b0d){_0x3edf7c=_0x3edf7c-0x121;let _0x56d7cf=_0x226347[_0x3edf7c];return _0x56d7cf;},_0x3edf(_0x57aea8,_0x4b4070);}export default handler;
