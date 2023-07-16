@@ -1,4 +1,4 @@
-<p align="center">
+-Rul<p align="center">
     <img src="./src/thumbnail.png" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
 <h1 align="center">Lunaa - MD</h1>
@@ -48,8 +48,8 @@
 
 ## Thanks To
 ```bash
-𝐀𝐮𝐭𝐡𝐨𝐫 : Xyroinee
-Base : Nurutomo and Elaina
+𝐀𝐮𝐭𝐡𝐨𝐫 : Fahrixz
+Base : VynaChan and Rulzyy
 Supported By FahriXz
 Thanks To : 
 - Adiwajshing (Author Baileys)
@@ -57,6 +57,6 @@ Thanks To :
 - BochilGaming (Author Games-Wabot)
 - ShirokamiRyzen (Author Nao-MD)
 - ImYanXiao (Autho Elaina-MD)
-- Ekuzika (Author Gura-MD)
+- Rullzy (Author Legacy-MD)
 - David (Author Rest Api Itsrose)
 - Dan Semua Yang  Berkontribusi Dalam Pengambangan Script Ini 
