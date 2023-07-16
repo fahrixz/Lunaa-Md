@@ -1,4 +1,4 @@
--Rul<p align="center">
+<p align="center">
     <img src="./src/thumbnail.png" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
 <h1 align="center">Lunaa - MD</h1>
