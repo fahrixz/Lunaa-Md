@@ -1,4 +1,4 @@
-import axios from "axios";
+//import axios from "axios";
 import jimp from "jimp";
 import FormData from "form-data";
 import { Sticker, createSticker, StickerTypes } from "wa-sticker-formatter";
